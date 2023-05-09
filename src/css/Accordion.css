@@ -20,6 +20,19 @@
     flex-direction: column;
 }
 
+.qnaImg {
+    height: 16px;
+}
+
+.btn {
+    border: none;
+    background: #fff;
+}
+
+.btn>img {
+    height: 7px;
+}
+
 .infoText {
     padding: 1px 10px;
     background-color: #f9f9f9;
