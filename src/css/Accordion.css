@@ -20,8 +20,15 @@
     flex-direction: column;
 }
 
+.question span {
+    display: flex;
+    align-items: center;
+}
+
 .qnaImg {
     height: 16px;
+    margin-right: 0.7rem;
+    margin-top: 4px;
 }
 
 .btn {

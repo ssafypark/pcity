@@ -15,13 +15,15 @@ const QnA = () => {
     const kCode = ["파라다이스 리워즈 포인트", "파라다이스 시그니처", "크로마 VIP", "카지노", "EVENT MEMBERSHIP CLUB"]; // 멤버십
     const [selectDetailOne, setSelectDetailOne] = useState<string>("항목을 선택해 주세요");
     const [selectDetailTwo, setSelectDetailTwo] = useState<string>("항목을 선택해 주세요");
-    const [userInfo, setUserInfo] = useState<string>();
-    // const onChangeInfo = (e) => {
-    //     const regex = /^[0-9]+$/;
-    //     if (regex.test(e.target.value)) {
-    //         setUserInfo(e.target.value);
-    //     }
-    // };
+    const [phoneNumber, setPhoneNumber] = useState({ first: "", second: "", third: "" });
+    const onChangeInfo = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { value, name } = e.target;
+        const regex = /[^0-9]/; // 0-9를 제외한 모든 문자
+        setPhoneNumber({
+            ...phoneNumber,
+            [name]: value.replace(regex, "") // 조건에 맞다면 않다면 공백
+        });
+    };
     return (
         <>
             <br />
@@ -60,9 +62,9 @@ const QnA = () => {
                 <div className="element">
                     <span>휴대폰 번호</span>
                     <div className="inp">
-                        <input className="outlineStyle" type="text" maxLength={3} />
-                        <input className="outlineStyle" type="text" maxLength={4} />
-                        <input className="outlineStyle" type="text" maxLength={4} />
+                        <input className="outlineStyle" type="text" name="first" maxLength={3} onChange={(e) => onChangeInfo(e)} value={phoneNumber.first} />
+                        <input className="outlineStyle" type="text" name="second" maxLength={4} onChange={(e) => onChangeInfo(e)} value={phoneNumber.second} />
+                        <input className="outlineStyle" type="text" name="third" maxLength={4} onChange={(e) => onChangeInfo(e)} value={phoneNumber.third} />
                     </div>
                 </div>
                 <div className="element">
