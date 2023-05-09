@@ -1,0 +1,30 @@
+.first {
+    text-align: center;
+    font-size: 0.775rem;
+}
+
+.bottom {
+    position: fixed;
+    /* left: 16px; */
+    bottom: 0;
+    font-size: 0.775rem;
+    width: 100%;
+    padding: 15px 0px;
+    padding-left: 30px;
+    color: #7b7a7a;
+    background-color: #161411;
+}
+
+.bottom>span {
+    color: #6dc7eb;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.bottom>span:hover {
+    color: #0095cf;
+}
+
+.info {
+    width: 100%;
+}

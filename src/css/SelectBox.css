@@ -1,0 +1,18 @@
+.selectbox {
+    font: inherit;
+    width: 100%;
+    height: 36px;
+    padding: 0 24px 0 8px;
+    border: 1px solid #e7e3e0;
+    -webkit-border-radius: 0px;
+    appearance: none;
+    font-size: 0.775rem;
+    background: #fff url("https://www.p-city.com/mobilePub/static/images/common/icon/bg_select.png"
+        ) no-repeat right center;
+    background-size: 17px 6px;
+}
+
+.selectbox:focus {
+    outline: 1px solid #ff6f00;
+    border-radius: 2px;
+}

@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+.top>div {
+    width: 33%;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* .qna {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+} */
+
+.wall {
+    width: 1.5px !important;
+    height: 20px !important;
+    background-color: #323232;
+    margin-top: 3px;
+}
+
+.borderStyle:after {
+    content: "";
+    display: block;
+    width: 50px;
+    border-bottom: 4px solid #9c836a;
+    margin: 3px auto;
+}

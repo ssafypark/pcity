@@ -1,0 +1,29 @@
+.question {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #e6e3df;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.question>header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 10px;
+}
+
+.question>header>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoText {
+    padding: 1px 10px;
+    background-color: #f9f9f9;
+}
+
+/* background: #fff url("https://www.p-city.com/mobilePub/static/images/common/icon/bg_select.png"
+) no-repeat right center; */

@@ -1,0 +1,33 @@
+.searchInput {
+    display: flex;
+    background-color: #fafafa;
+    width: 100%;
+    border: 1px solid #e6e3df;
+}
+
+.inputBox {
+    width: 100%;
+}
+
+.inputBox input[type="text"] {
+    background-color: white;
+    border: none;
+    outline: none;
+    height: 2.2rem;
+    width: 100%;
+    font-size: 0.775rem;
+    text-align: center;
+}
+
+.inputBox input[type="text"]:focus {
+    text-align: left;
+}
+
+.imgButton {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

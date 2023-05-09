@@ -1,0 +1,110 @@
+.one {
+    display: flex;
+    width: 100%;
+    font-size: 0.775rem;
+    align-items: center;
+}
+
+.one>span {
+    width: 35%;
+}
+
+.questionType {
+    display: flex;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 0.775rem;
+    flex-direction: column;
+}
+
+.questionType>span {
+    margin: 5px 0px;
+}
+
+.questionType>div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5%, 1fr));
+    column-gap: 10px;
+}
+
+.radioBtn input {
+    display: none;
+}
+
+.radioBtn input[type="radio"]+span {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.radioBtn input[type="radio"]:checked+span {
+    background-color: #7a644d;
+    color: #ffffff;
+}
+
+.contents {
+    width: 100%;
+    font-size: 0.775rem;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 0.775rem;
+}
+
+.element>span {
+    margin-bottom: 5px;
+}
+
+.inp {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, auto));
+    column-gap: 10px;
+}
+
+.textarea {
+    resize: none;
+    height: 10vh;
+}
+
+.outlineStyle {
+    outline: none;
+    width: 100%;
+    font-size: 0.775rem;
+    border: 1px solid #e6e3df;
+}
+
+input {
+    background-color: white;
+    height: 2.2rem;
+    text-align: center;
+}
+
+input:focus {
+    text-align: left;
+}
+
+.save {
+    border: 1px solid #9c836a;
+    font-weight: 300;
+    transition: all .3s ease;
+    cursor: pointer;
+    color: #fff;
+    background: #9c836a;
+    min-width: auto;
+    padding: 0 24px;
+    font-size: 14px;
+    height: 48px;
+    width: 156px;
+}
+
+.save:hover {
+    background: #7a644d;
+}
