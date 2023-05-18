@@ -5,5 +5,8 @@
   position: relative;
   padding: 1px 16px;
   overflow: hidden;
+}
+
+* {
   font-family: 'Noto Sans KR', sans-serif;
 }
