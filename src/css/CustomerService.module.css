@@ -1,6 +1,17 @@
-.header {
+.fix {
     display: flex;
     width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+    background: white;
+    top: 0;
+}
+
+.header {
+    display: flex;
+    width: 95%;
     justify-content: space-between;
     margin: 20px 0px;
 }

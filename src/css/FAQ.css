@@ -3,8 +3,15 @@
     font-size: 0.775rem;
 }
 
+.bodyContent {
+    padding-top: 100px;
+    padding-bottom: 84px;
+    width: 100%;
+}
+
 .bottom {
     position: fixed;
+    left: 0;
     bottom: 0;
     font-size: 0.775rem;
     width: 100%;

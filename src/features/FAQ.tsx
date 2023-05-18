@@ -38,7 +38,7 @@ const FAQ = ({ changeTitle }: faqType) => {
     }, [selectFacility]);
 
     return (
-        <>
+        <div className="bodyContent">
             <p className="first">
                 자주 문의하는 질문에 대한 답변을<br />
                 확인하실 수 있습니다
@@ -55,7 +55,7 @@ const FAQ = ({ changeTitle }: faqType) => {
                 <span onClick={() => changeTitle()}>Q&A</span>를 통해 질문을 해 주시면 빠른 시간 안에 답변을<br />
                 드리도록 하겠습니다.(전화 상담: 1833-8855)
             </div>
-        </>
+        </div>
     );
 };
 
