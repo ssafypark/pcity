@@ -30,8 +30,7 @@ const QnA = () => {
     };
 
     return (
-        <>
-            <br />
+        <div className="qnaBody">
             <div className="one">
                 <span>시설</span>
                 <SelectBox selectList={mCode} selected={selectDetailOne} setSelected={setSelectDetailOne}></SelectBox>
@@ -81,7 +80,7 @@ const QnA = () => {
                 </div>
             </div >
             <button className="save">등록</button>
-        </>
+        </div>
     );
 };
 
