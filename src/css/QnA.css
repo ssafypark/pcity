@@ -96,6 +96,12 @@ input:focus {
     text-align: left;
 }
 
+.saveBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .save {
     border: 1px solid #9c836a;
     font-weight: 300;

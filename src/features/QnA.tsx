@@ -79,7 +79,9 @@ const QnA = () => {
                     </div>
                 </div>
             </div >
-            <button className="save">등록</button>
+            <div className="saveBlock">
+                <button className="save">등록</button>
+            </div>
         </div>
     );
 };
