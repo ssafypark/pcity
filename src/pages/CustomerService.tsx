@@ -12,7 +12,6 @@ const CustomerService = () => {
 
   return (
     <>
-      {/*{currentTab == "FAQ" ? "고객지원" : "1 : 1 문의하기"} */}
       <div className={styles.fix}>
         <div className={styles.header}>
           <img src="https://user-images.githubusercontent.com/99133426/235196497-29d8aef5-5ecc-44d2-a1f4-4c5be2cf2b5d.png" alt="뒤로가기" />
