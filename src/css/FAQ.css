@@ -7,7 +7,22 @@
     padding-top: 100px;
     padding-bottom: 84px;
     width: 100%;
+    color: #666;
 }
+
+/* font-family: 'Noto Sans', sans-serif;
+-webkit-text-size-adjust: none;
+list-style: none;
+margin: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+box-sizing: border-box;
+font-weight: 300;
+padding: 14px 0 12px 0;
+line-height: 18px;
+width: calc(100% - 27px); */
 
 .bottom {
     position: fixed;
